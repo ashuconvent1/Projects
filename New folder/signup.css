@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+ 
+
+}
+
+.container {
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 100px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+
+#contact input[type="password"],
+#contact input[type="email"],#contact input[type="text"],
+#contact textarea {
+
+  border: 1px solid ;
+  
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+
+#contact textarea:hover {
+  
+ 
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 50px;
+  
+ 
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 50%;
+  border: none;
+  background: #fd5b03;
+  color: #FFF;
+  margin: 10px 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #e9661f;
+ 
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+
